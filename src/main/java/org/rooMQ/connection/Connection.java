@@ -5,6 +5,7 @@ package org.rooMQ.connection;
  */
 public interface Connection {
 
+    /*链接开始*/
     public void start();
 
     public void stop();
