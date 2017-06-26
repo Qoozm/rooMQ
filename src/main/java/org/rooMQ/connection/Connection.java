@@ -8,7 +8,7 @@ public interface Connection {
     /*链接开始*/
     public void start();
 
-    /*停止连接*/
+    /*大家的注释*/
     public void stop();
 
     public void close();
