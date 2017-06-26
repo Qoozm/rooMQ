@@ -13,16 +13,9 @@ import java.net.SocketAddress;
 public class RooMQTopicConnectionFactory implements ConnectionFactory {
 
     Socket socket = new Socket();
-    SocketAddress default_address = new InetSocketAddress("localhost", 40000);
+    SocketAddress default_address = new InetSocketAddress("localhost", 12121);
 
     public Connection getConnection() {
-
-        try {
-            socket.bind(default_address);
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
         return null;
     }
