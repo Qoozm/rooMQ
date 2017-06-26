@@ -8,6 +8,7 @@ public interface Connection {
     /*链接开始*/
     public void start();
 
+    //Qzm的注释
     public void stop();
 
     public void close();
